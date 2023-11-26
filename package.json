@@ -1,0 +1,29 @@
+{
+  "name": "kc-cli",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "kca": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write \"**/*.{js,jsx,json,css,scss,html}\""
+  },
+  "keywords": [],
+  "author": "Paul Javaloyes Alcaraz <pauljdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack-cli": "^5.1.4"
+  }
+}
